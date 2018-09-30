@@ -2,9 +2,9 @@ function createDocumentTest() {
   // アクティブシートに置くならAPI許可いらないかもしれない
   // 対象のシートを左端に置くこと
   
-  var headers = Sheets.Spreadsheets.Values.get('1l5nm_tF_Eaiuko6w9-8tEFwmwp9dbrGwraht0SqOzGc', 'A1:C1');
-  var items = Sheets.Spreadsheets.Values.get('1l5nm_tF_Eaiuko6w9-8tEFwmwp9dbrGwraht0SqOzGc', 'A2:C4');
-  var templateId = '1KFWCTiEabHqKjrNczE94bRpSGb6N6M3RYeBC3ZxJoaM';
+  var headers = Sheets.Spreadsheets.Values.get('1l5nm_.....qOzGc', 'A1:C1');
+  var items = Sheets.Spreadsheets.Values.get('1l5nm_.....qOzGc', 'A2:C4');
+  var templateId = '1KFWCT.....ZxJoaM';
   
   // 二次元配列にして取り出す
   for(var i = 0; i < items.values.length; i++){
